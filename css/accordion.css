@@ -1,0 +1,22 @@
+.accordion {
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+}
+.accordion h2,
+.accordion p {
+  color: white;
+  padding: 10px;
+}
+.accordion h2 {
+  background-color: brown;
+  margin: 0;
+}
+.accordion p {
+  background-color: #ef3838;
+  margin-bottom: 5px;
+  display: none;
+}
+.accordion p:first-of-type {
+  display: block;
+}
